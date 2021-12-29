@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css" type="text/css"/>
         <meta charset="utf-8"/>
-        <title>D0SWare</title>
+        <title>D0SWARE</title>
+        <link rel="icon" type="image/png" href="assets/favicon.ico"/>
         <style>
         html::-webkit-scrollbar-thumb {
          background-color: #8e8f90;
@@ -57,13 +59,15 @@ scrollbar-width: none !important;
 }
 
 .topnav a:hover {
-  background-color: #333;
+  background-color: rgba(45, 45, 45);
   color: white;
   border-radius: 8px;
+  transition: 1s ease-in;
+  transition: 1s ease-out;
 }
 
 .topnav a.active {
-  background-color: #333;
+  background-color: rgba(45, 45, 45);
   color: white;
   border-radius: 8px;
 }
@@ -73,12 +77,14 @@ scrollbar-width: none !important;
 
 <div class="topnav">
   <a class="active" href="index.html">Home</a>
-  <a href="404.html">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <a href="404.html">404 test page</a>
+  <a href="">Download</a>
+  <a href="">About</a>
 </div>
-        <div class="title">
-            <p>D0SWare</p>
+        <div>
+            <p class="title">D0SWARE</p>
+            <p class="subtitle">Scripting Utility</p>
+            <button class="downloadbtn">Download</button>
           </div>
     </body>
 </html>
